@@ -2,7 +2,7 @@
     "containerDefinitions": [
         {
             "name": "app",
-            "image": "891377198365.dkr.ecr.us-east-1.amazonaws.com/app_repo",
+            "image": "AWS Username.dkr.ecr.us-east-1.amazonaws.com/app_repo",
             "cpu": 256,
             "memory": 512,
             "portMappings": [
@@ -20,8 +20,8 @@
         }
     ],
     "family": "app",
-    "taskRoleArn": "arn:aws:iam::891377198365:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::891377198365:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::AWS Username:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::AWS username:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "volumes": [],
     "placementConstraints": [],
