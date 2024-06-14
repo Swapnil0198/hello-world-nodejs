@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "app",
-            "image": "891377198365.dkr.ecr.us-east-1.amazonaws.com/app_repo:latest",
+            "image": "891377198365.dkr.ecr.us-east-1.amazonaws.com/app_repo",
             "cpu": 256,
             "memory": 512,
             "portMappings": [
@@ -24,7 +24,7 @@
     "taskRoleArn": "arn:aws:iam::891377198365:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::891377198365:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 7,
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -54,7 +54,7 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "registeredAt": "2024-06-11T04:05:00.706Z",
-    "registeredBy": "arn:aws:iam::891377198365:user/swapnil",
+    "registeredAt": "2024-06-14T12:19:16.102Z",
+    "registeredBy": "arn:aws:iam::891377198365:user/Patil",
     "tags": []
 }
